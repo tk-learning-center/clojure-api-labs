@@ -1,6 +1,6 @@
 (ns clojure-api-labs.core
-  (:require [toucan.db :as db
-             toucan.models :as models])
+  (:require [toucan.db :as db]
+            [toucan.models :as models])
   (:gen-class))
 
 (def db-config
